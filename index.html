@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Daniel - Biography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Minimal is best.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23111'/><text x='50' y='72' font-size='62' font-family='Arial' fill='white' text-anchor='middle'>D</text></svg>">
+  <title>Daniel</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,11 +17,53 @@
     h1 {
       text-align: center;
     }
-    img {
+    h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 4px;
+      margin-top: 40px;
+    }
+    img.profile {
       max-width: 150px;
       border-radius: 10%;
       display: block;
       margin: 0 auto;
+    }
+    figure {
+      margin: 20px auto;
+      text-align: center;
+    }
+    figure img {
+      max-width: 100%;
+      border-radius: 6px;
+    }
+    figcaption {
+      font-size: 0.85em;
+      color: #555;
+      margin-top: 6px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 8px 10px;
+      border-bottom: 1px solid #eee;
+      vertical-align: top;
+    }
+    td:first-child {
+      white-space: nowrap;
+      font-weight: bold;
+    }
+    ul.tenets li {
+      margin-bottom: 6px;
+    }
+    .links {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.95em;
+    }
+    .links a {
+      margin: 0 6px;
     }
     .contact {
       text-align: center;
@@ -29,31 +74,25 @@
   </style>
 </head>
 <body>
-
-  <img src="images/profilePhoto.jpeg" alt="Daniel">
+  <img class="profile" src="images/profilePhoto.jpeg" alt="Daniel">
   <h1>Daniel</h1>
 
   <p>
     My name is Daniel, but you can call me Danny if you'd like. I'm a software engineer
-    with 3 years experience and counting working in big tech in the Bay Area. My experience
-    has been mostly in robotics— started with spatial geometry and mapping/SLAM, now more
-    AI integration and distributed systems. Android development has been a constant in my few
-    years, running as the app & ui layer in the products i've worked on. For being a software
-    engineer, I'm very very anti tech.
-    I believe that our smartphones, social media, and being chronically online are all means
-    of distraction and extraction of attention. I'm anti consumption, and I
-    believe you should always choose the option that gives you independence. Learning to cook
-    is one of them. You should always use a VPN, pay with cash, and be very weary of giving
-    your personal information to websites.
+    with 4 years of experience and counting working in big tech in the Bay Area. My experience
+    has been mostly in robotics. I started with spatial geometry and mapping/SLAM, and lately
+    do more AI integration with robotics and distributed systems. Android development has been a
+    constant through my few years, running as the app &amp; UI layer in the products I've worked on.
+    For being a software engineer, I'm very, very anti tech.
   </p>
-
   <p>
-    I have a passion for free and open source software, driven in part by this desire for
-    independence and in part by a belief that we should return to a sense of normalcy when using
-    the internet, thinking back to the times when it was more about information and communication,
-    and less about attention and value extraction.
+    I believe that our smartphones, social media, and being chronically online are all means
+    of distraction and extraction of attention. Most of my life is lived without a smartphone.
+    I don't use one in the traditional way, and I only use social media to post; otherwise I
+    don't have the apps at all. I'm anti consumption, and I believe you should always choose
+    the option that gives you independence. Learning to cook is one of them. You should always
+    use a VPN, pay with cash, and be very wary of giving your personal information to websites.
   </p>
-
   <p>
     I'm anti-nerd in that I believe everyone should try their best to be a well rounded human,
     and specializing in a domain doesn't serve as an excuse to not be capable in other things. Fitness
@@ -62,17 +101,72 @@
     physicality, as we as humans have not evolved nearly as much as technology might make you think
     we have, and physical ability still lives in our subconscious.
   </p>
-
   <p>
     My days are simple: I wake up, I work out, I eat, sauna, shower, then work for the rest of the day.
-    I believe success is derived from being good at the simple things and managing your time wisely.
+    I believe success is derived from being good at the simple things and subtracting what doesn't serve the mission.
   </p>
 
-  <div class="contact">
-    Contact: <a href="mailto:daniel.dev@gmail.com">daniel.dev@gmail.com</a> |
-    <a href="https://github.com/gogr-dev" target="_blank">GitHub</a> |
-    <a href="***REMOVED***" target="_blank">LinkedIn</a>
+  <h2>Tenets</h2>
+  <ul class="tenets">
+    <li>Minimal is best. I avoid anything that takes away my focus.</li>
+    <li>I don't drink.</li>
+    <li>I don't use Google services.</li>
+    <li>I don't let others decide what I think. No algorithms, no news cycles, no comment sections.
+        When I want to solve a problem or form an idea, I start from a blank slate and use my own
+        data and anecdotes to reach a conclusion.</li>
+    <li>I'm pro free and open source software. The internet should be about information and
+        communication, not attention and value extraction.</li>
+  </ul>
+  <p>I'm anti-modernity in many ways. All of these are very bad for you:
+     porn, doomscrolling, ultra-processed foods, vaping.</p>
+
+  <h2>Some things I do</h2>
+  <ul>
+    <li>I DJ (pictured below)</li>
+    <li>I often go on 1-2+ hour long swims. Solo</li>
+    <li>I cold plunge</li>
+  </ul>
+
+  <figure>
+    <img src="images/djPhoto.jpeg" alt="Danny DJing">
+    <figcaption>Behind the decks.</figcaption>
+  </figure>
+
+  <h2>Books</h2>
+  <table>
+    <tr>
+      <td>Favorite of all time</td>
+      <td><em>Chip War</em> by Chris Miller</td>
+    </tr>
+    <tr>
+      <td>Should read</td>
+      <td><em>The Sovereign Individual</em> by James Dale Davidson &amp; William Rees-Mogg</td>
+    </tr>
+    <tr>
+      <td>Fun, short pick-me-up</td>
+      <td><em>The Precious Present</em> by Spencer Johnson</td>
+    </tr>
+    <tr>
+      <td>Insightful</td>
+      <td><em>The Laws of Human Nature</em> by Robert Greene</td>
+    </tr>
+    <tr>
+      <td>Playful and informative</td>
+      <td><em>Enshittification</em> by Cory Doctorow</td>
+    </tr>
+  </table>
+
+  <h2>Find me</h2>
+  <div class="links">
+    <a href="#" title="Coming soon">Telegram</a> |
+    <a href="https://threads.net/@d.gogurt" target="_blank">Threads</a> |
+    <a href="https://instagram.com/d.gogurt" target="_blank">Instagram</a> |
+    <a href="https://youtube.com/@gogr-dev" target="_blank">YouTube</a> |
+    <a href="https://github.com/gogr-dev" target="_blank">GitHub</a>
   </div>
 
+  <div class="contact">
+    Contact: <a href="mailto:gogr.dev@proton.me">gogr.dev@proton.me</a>
+  </div>
 </body>
 </html>
